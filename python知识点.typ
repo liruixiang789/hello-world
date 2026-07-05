@@ -1,5 +1,5 @@
 //导入cuti包，设置中文粗体
-#import "@preview/cuti:0.2.1": show-cn-fakebold
+#import "@preview/cuti:0.4.0": show-cn-fakebold
 #show: show-cn-fakebold
 
 
@@ -14,7 +14,7 @@
 )
 
 #set heading(numbering: "1.")  //设置标题的序号
-#set text(size:10pt,font:"DejaVu Sans Mono")  //分别设置“中文”和English字体
+#set text(size:10pt)  //设置字体支持中英文
 #set enum(numbering: "(1)")  //设置枚举的序号
 
 
